@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+
+body {
+    background-image: url("portfolio5.jpg") ;
+    background-size: 1400px;
+    background-repeat: no-repeat;
+    color:white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem; 
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 70px ;
+    
+
+}
+
+.right ul {
+    display: flex; 
+    font-size: 1.5rem;  
+    list-style: none; 
+}
+
+li{
+    margin-right: 95px;
+}   
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+
+}
+
+.firstsection div{
+    width: 40%;
+    margin-top:50px ;
+
+}
+
+
+.leftsection{
+      height: 16rem;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: 600; 
+      font-size: 4rem; 
+
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem; /* spacing between buttons */
+  margin-left: 3rem;
+}
+
+.btn {
+  font-size: 0.8rem;
+  background-color: aqua;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+.rightsection{
+    background-color: aqua;
+    background-image: url("profile5.jpg");
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+
+
+}
+
+.domainname{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5rem;
+    font-weight: bolder;
+    margin-left: 170px;
+    text-shadow: 4px 4px #45e0d3;
+    
+}
+
+button{
+    background-color: aqua;
+    color: aliceblue;
+    height: 25px;
+    width: 100px;
+    border-style: none;
+    border-radius: 10px;
+
+}
+
+.secondsection {
+    max-width: 214vh;
+    margin: auto;
+    height: 80vh;
+    background-image: url("portfolio5.jpg") ;
+    background-size: 1400px;
+    height: 80vh;
+    background-repeat: repeat;
+    color:white;
+    
+
+}
+
+.secondsection h1{
+    font-size: 1.9rem;
+    
+    
+}
+
+.work {
+    margin-left: 200px;
+    
+}
+
+.secondsection .box{
+    width: 280vh;
+    height: 2px;
+    margin: 56px 0 ; 
+}
+
+.line{
+    width: 80%;
+    margin-left: 130px;
+    
+}
+
+
+
+/* footer-------------------------------------------------- */
+
+.footer {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  padding: 2rem 1rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.footer-logo h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.footer-logo p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #aaaaaa;
+}
+
+.footer-links,
+.footer-socials {
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-links a,
+.footer-socials a {
+  text-decoration: none;
+  color: #cccccc;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover,
+.footer-socials a:hover {
+  color: #00d8ff;
+}
+
+.footer-bottom {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #777777;
+  border-top: 1px solid #333;
+  padding-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* animation----------------------------------------------------------- */
+
+button:hover {
+    background-color: rgb(26, 124, 124);
+}
